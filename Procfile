@@ -1,0 +1,1 @@
+web: gunicorn analisis.wsgi --timeout 30 --log-file -
